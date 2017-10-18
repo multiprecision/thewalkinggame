@@ -1,0 +1,66 @@
+createnpc MyDad 0 1 5 0
+sleep 1
+createnpc MyMom 2 3 -3 0
+sleep 1
+createnpc MySister 2 3 3 0
+sleep 1
+createnpc MyBrother 0 0 3 0
+sleep 1
+createnpc MyAunt 2 5 3 0
+sleep 1
+createnpc MyUncle 1 -3 3 0
+sleep 1
+createnpc MyGrandma 2 5 -3 0
+sleep 1
+createnpc MyBrother2 0 -5 0 0
+sleep 1
+createnpc THE_QUICK_BROWN_FOX_JUMPS_OVER_THE_LAZY_DOG 1 0 5 0
+sleep 1
+createnpc TEST 2 -5 5 0
+sleep 1
+setmodel player 2
+sleep 3
+createnpc TEST!@#$%^&*(){[]}_+-=/*|\"'/;:1234567890~`<>,. 0 5 5 0
+sleep 1
+createnpc the_quick_brown_fox_jumps_over_the_lazy_dog 2 5 -5 0
+setposition npc_1 5 0 0
+setposition npc_2 0 5 0
+setmodel player 1
+sleep 3
+setposition player 10 0 0
+setmodel player 2
+sleep 3
+setposition player 0 10 0
+setmodel player 0
+sleep 3
+setposition player 0 0 0
+setwalkingspeed player 10
+sleep 3
+takecontrol npc_1
+sleep 3.123
+takecontrol npc_1
+sleep 3
+deletenpc MyDad
+sleep 1
+deletenpc MyMom
+sleep 1
+deletenpc MySister
+sleep 1
+deletenpc MyBrother
+sleep 1
+deletenpc MyAunt
+sleep 1
+deletenpc MyUncle
+sleep 1
+deletenpc MyGrandma
+sleep 1
+deletenpc MyBrother2
+sleep 1
+deletenpc THE_QUICK_BROWN_FOX_JUMPS_OVER_THE_LAZY_DOG
+sleep 1
+deletenpc TEST
+sleep 1
+deletenpc TEST!@#$%^&*(){[]}_+-=/*|\"'/;:1234567890~`<>,.
+sleep 1
+deletenpc the_quick_brown_fox_jumps_over_the_lazy_dog
+setwalkingspeed player 5
